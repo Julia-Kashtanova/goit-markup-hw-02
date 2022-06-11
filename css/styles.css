@@ -1,0 +1,181 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196f3;
+    --opacity-white-color: rgba(255, 255, 255, 0.6);
+    --secondary-background-color: #f5f4fa;
+    --white-color: #ffffff;
+    --footer-background-color: #2f303a;
+}
+
+body {
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo {
+    color: var(--title-text-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.footer > .logo {
+    color: var(--white-color);
+}
+.logo-piece {
+    color: var(--accent-color);
+}
+
+/* spacing */
+
+.site-nav,
+.connect {
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.hero {
+    letter-spacing: 0.06em;
+}
+.section {
+    letter-spacing: 0.03em;
+}
+
+/* site-nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* connect */
+.connect .link {
+    color: var(--primary-text-color);
+}
+
+.connect .link:hover,
+.connect .link:focus,
+.site-nav .link:focus,
+.site-nav .link:hover {
+    color: var(--accent-color);
+}
+
+.button {
+    cursor: pointer;
+}
+
+.button.primary {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.button.secondary {
+    background-color: var(--secondary-background-color);
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+/* hero */
+
+.hero,
+.footer {
+    background-color: var(--footer-background-color);
+}
+
+.team {
+    background-color: var(--secondary-background-color);
+}
+
+.hero-title {
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+}
+
+/* sections */
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.features .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+/* employees */
+.employees .title {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.features .descr {
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.employees .descr {
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.find-us {
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+}
+
+.address {
+    color: var(--white-color);
+}
+
+.mail,
+.tel {
+    color: var(--opacity-white-color);
+}
+
+.examples .title {
+    color: var(--title-text-color);
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.examples .descr {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+}
